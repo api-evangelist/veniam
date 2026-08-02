@@ -1,8 +1,25 @@
 aid: veniam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veniam.png
 name: Veniam
-description: Veniam is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Veniam builds intelligent networking software for the Internet of Moving Things, moving
+  data automatically, securely, and cost-effectively between connected vehicles, mobile IoT devices,
+  and the cloud across all available networks (cellular, Wi-Fi, and DSRC). Its platform serves video
+  telematics, connected fleets, industrial IoT, and auto OEM/Tier 1 use cases, and reports processing
+  110M+ kilometers of mobile IoT data with 130+ granted patents. Founded by Joao Barros, Susana
+  Sargento, Robin Chase, and Roy Russell, the company was acquired by Nexar in 2022. Surfaced as a
+  portfolio company of Union Square Ventures. No public developer portal, API documentation, or
+  OpenAPI surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/veniam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Internet of Things
+- Connected Vehicles
+- Telematics
+- Mobility
+- Networking
+- Fleet Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/veniam-domain-security.yml
 - type: Website
   url: https://veniam.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 1
+  pass: local-v1
